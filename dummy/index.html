@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.rtl.min.css"
+    />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap" rel="stylesheet">
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+    <title>dummy</title>
+  </head>
+  <body>
+    <section class="section1 container-fluid p-0" id="home">
+      <div class="d-flex flex-column">
+        <header>
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <img src="img/logo.png" class="logo" alt="img" />
+              <a class="navbar-brand m-0" href="#">SQUASH CLUB</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="navbar-nav mr"></div>
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#team">Our Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      More
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#ranking">Ranking</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Blogs</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#contact">Contact Us</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+      </div>
+    </section>
+
+    <!-- next -->
+
+    <section>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="img/slider1.jpg" class="d-block w-100" alt="img" />
+            <div class="carousel-caption d-md-block">
+              <h5>NEW GENERATION OF SQUASH</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="img/slider2.jpg" class="d-block w-100" alt="img" />
+            <div class="carousel-caption d-md-block">
+              <h5>NEW GENERATION OF SQUASH</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="img/slider3.jpg" class="d-block w-100" alt="img" />
+            <div class="carousel-caption d-md-block">
+              <h5>NEW GENERATION OF SQUASH</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- next -->
+
+    <section>
+      <div class="container-fluid mt-5 text-center p-0" id="about">
+        <div class="div1">
+          <div class="container-fluid p-0">
+          <div class="row m-0">
+            <div class="col p-0">
+              <h1>ABOUT US</h1>
+            </div>
+            <div class="col"></div>
+          </div>
+          </div>
+        </div>
+        <div class="div2 mt-3">
+            <p class="para1">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates animi maiores labore alias cupiditate id voluptas repellat officiis? Tenetur voluptates at vero culpa provident natus reiciendis minus nostrum aliquid autem vitae architecto, repellat voluptas necessitatibus praesentium consectetur corporis voluptatibus quasi voluptatem dolor? Necessitatibus repellendus vero suscipit corrupti atque. Consectetur, recusandae?
+            </p>
+          </i>
+        </div>
+      </div>
+    </section>
+
+    <!-- next -->
+
+    <section>
+      <div class="container-fluid mt-5 text-center p-0" id="team">
+        
+    
+        <div class="team d-flex flex-column text-center">
+          <div class="div3">
+            <div class="container-fluid p-0">
+            <div class="row m-0">
+              <div class="col"></div>
+              <div class="col p-0">
+                <h1>OUR TEAM</h1>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="div2 mt-3">
+            <p class="para1">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, dicta. Quis iure ullam sequi itaque deserunt assumenda in doloremque exercitationem culpa quidem quisquam eligendi dolore pariatur perferendis labore commodi accusamus, illo consequuntur veritatis. Repellendus, magni laboriosam. Iusto aliquid fuga iste cupiditate, voluptates odit debitis nobis obcaecati similique, provident deserunt sequi!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="mem">
+              <div class="member text-center">
+                <div class="image">
+                  <img src="img/mem1.jpg" alt="img" class="mem1" />
+                </div>
+                <div class="details">
+                  <h4>Manali Moris</h4>
+                  <h6>CEO</h6>
+                  <p class="para2">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Quas, quod!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="mem">
+              <div class="member">
+                <div class="image">
+                  <img src="img/mem2.jpg" alt="img" class="mem2" />
+                </div>
+                <div class="details">
+                  <h4>Moni Mathur</h4>
+                  <h6>HOD</h6>
+                  <p class="para2">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Quas, quod!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="mem">
+              <div class="member">
+                <div class="image">
+                  <img src="img/mem3.jpg" alt="img" class="mem3" />
+                </div>
+                <div class="details">
+                  <h4>Rishi Singh</h4>
+                  <h6>Co-Founder</h6>
+                  <p class="para2">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Quas, quod!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="mem">
+              <div class="member">
+                <div class="image">
+                  <img src="img/mem4.jpg" alt="img" class="mem4" />
+                </div>
+                <div class="details">
+                  <h4>Komal Kamle</h4>
+                  <h6>Co-Helper</h6>
+                  <p class="para2">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Quas, quod!
+                  </p>
+                </div>
+              </div>
+           </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- next -->
+
+    <section>
+      <div class="container-fluid mt-5 text-center p-0" id="services">
+        <div class="div1">
+          <div class="container-fluid p-0">
+          <div class="row m-0">
+            <div class="col p-0">
+              <h1>SERVICES</h1>
+            </div>
+            <div class="col"></div>
+          </div>
+          </div>
+        </div>
+        <div class="div2 mt-3">
+            <p class="para1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos repudiandae, nemo laborum, necessitatibus laboriosam nisi perferendis aut natus recusandae tempora distinctio et cupiditate perspiciatis molestias possimus. Sit aliquid libero quae nemo quibusdam excepturi commodi incidunt quidem cumque maiores at earum, iusto fugit minima modi sapiente accusamus temporibus voluptatum possimus corrupti!
+            </p>
+          </i>
+        </div>
+
+        <div class="container">
+          <div class="div4">
+            <h5>SQUASH</h5>
+            <p class="para5">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+              harum?
+            </p>
+          </div>
+
+          <div class="div4">
+            <h5>RACKET</h5>
+            <p class="para5">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+              harum?
+            </p>
+          </div>
+
+          <div class="div4">
+            <h5>SMART MOVE</h5>
+            <p class="para5">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+              harum?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- next -->
+
+    <section>
+      <div class="container-fluid mt-5 text-center p-0" id="ranking">
+        <div class="div3">
+          <div class="container-fluid p-0">
+          <div class="row m-0">
+            <div class="col"></div>
+            <div class="col p-0">
+              <h1>RANKING</h1>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="div2 mt-3">
+            <p class="para1">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem vero ipsa laborum minus reiciendis repellat, magnam, ab quam quae totam eveniet corporis, sunt dolorum! Non sed ad reiciendis possimus aliquid in voluptatibus recusandae quaerat ducimus iure aliquam, odio sunt voluptates deleniti modi debitis vel quia sit ex nihil dolore accusamus.
+            </p>
+          </i>
+        </div>
+      </div>
+    </section>
+
+    <!-- next -->
+
+    <section class="section-7 m-3">
+    <div class="container mt-5 p-4 con" id="contact">
+      <div class="container sub-con">
+        <label for="subs">Subcribe to our latest news</label>
+        <form action="subscriptionList.php" method="post" role="form" class="form">
+          <div class="input-group">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <input
+              type="email"
+              class="form-control"
+              id="subscribeEmail"
+              name="subscribeEmail"
+              placeholder="EMAIL ADDRESS"
+            />
+          </div>
+          <div class="submit">
+          <input
+            type="submit"
+            class="form-control"
+            value="Subscribe"
+            id="submit"
+            name="submit"/>
+          </div>
+        </form>
+      </div>
+      <div class="container mt-3 sub-con">
+        <div class="sub1">
+        <p class="para4">For more details</p>
+        <h3>Contact Us</h3>
+        <p>1200-009-241-988</p>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- next -->
+
+    <section>
+      <div class="container-fluid bg-dark">
+        <div class="d-sm-flex flex-row text-white">
+          <div class="footer">
+            <label for="Prod">Products</label>
+            <ul class="font">
+              <li>Our Work</li>
+              <li>Club</li>
+              <li>News</li>
+              <li>Announcements</li>
+            </ul>
+          </div>
+          <div class="footer">
+            <label for="info">Information</label>
+            <ul class="font">
+              <li>Pricing</li>
+              <li>Terms</li>
+              <li>Affiliates</li>
+              <li>Blogs</li>
+            </ul>
+          </div>
+          <div class="footer">
+            <label for="sup">Supports</label>
+            <ul class="font">
+              <li>Documentation</li>
+              <li>FQAs</li>
+              <li>Forums</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        </div>
+        <div class="d-sm-flex flex-row text-white">
+          <div class="footer1">
+            <label for="links">Links</label>
+            <ul class="list-inline">
+              <li class="social-link">
+                <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+              </li>
+              <li class="social-link">
+                <a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+              </li>
+              <li class="social-link">
+                <a href="https://www.instagram.com/indian_celebrities_/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </li>
+              <li class="social-link">
+                <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+              </li>
+              <li class="social-link">
+                <a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyrights bg-dark text-white m-0">
+          <p class="para3">
+            &copy; 2022 copyRight <a href="index.html">Squash Club</a> All Rights
+            Reserved.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    <script src="js/main.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
